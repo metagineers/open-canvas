@@ -106,6 +106,7 @@ export function Signup() {
               There was an error creating your account. Please try again.
             </p>
           )}
+          XovoX Write
         </div>
       </div>
     </div>

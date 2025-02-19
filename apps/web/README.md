@@ -1,4 +1,4 @@
-# Open Canvas
+# XovoX Write
 
 [TRY IT OUT HERE](https://opencanvas.langchain.com/)
 

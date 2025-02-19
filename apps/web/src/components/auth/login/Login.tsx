@@ -101,6 +101,7 @@ export function Login() {
               There was an error signing into your account. Please try again.
             </p>
           )}
+          XovoX Write
         </div>
       </div>
     </div>
