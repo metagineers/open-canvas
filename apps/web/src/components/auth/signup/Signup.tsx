@@ -75,7 +75,7 @@ export function Signup() {
             alt="Xovox AI Logo"
             className="rounded-full"
           />
-          Open Canvas
+          XovoX Write
         </div>
       </div>
       <div className="lg:p-8">

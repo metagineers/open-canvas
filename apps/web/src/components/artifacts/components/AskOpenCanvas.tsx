@@ -121,7 +121,7 @@ export const AskOpenCanvas = forwardRef<HTMLDivElement, AskOpenCanvasProps>(
             onClick={() => setIsInputVisible(true)}
             className="transition-all duration-300 ease-in-out w-full"
           >
-            Ask Open Canvas
+            Ask XovoX Write
           </Button>
         )}
       </div>
@@ -129,4 +129,4 @@ export const AskOpenCanvas = forwardRef<HTMLDivElement, AskOpenCanvasProps>(
   }
 );
 
-AskOpenCanvas.displayName = "AskOpenCanvas";
+AskOpenCanvas.displayName = "AskXovoxWrite";
