@@ -70,12 +70,12 @@ export function Login() {
         <div className="relative z-20 flex gap-1 items-center text-lg font-medium">
           <NextImage
             src="/xovox-black.svg"
-            width={36}
-            height={36}
+            width={72}
+            height={72}
             alt="XovoX AI Logo"
-            className="rounded-full"
+            className="rounded-sm"
           />
-          Open Canvas
+          XovoX Write
         </div>
       </div>
       <div className="lg:p-8">
@@ -85,8 +85,8 @@ export function Login() {
             <Link
               href="/auth/signup"
               className={cn(
-                buttonVariants({ variant: "ghost" }),
-                "md:hidden flex"
+          buttonVariants({ variant: "ghost" }),
+          "md:hidden flex"
               )}
             >
               Signup
@@ -101,7 +101,9 @@ export function Login() {
               There was an error signing into your account. Please try again.
             </p>
           )}
-          XovoX Write
+          <p className="text-center text-sm text-muted-foreground">
+            XovoX Write <span className="font-semibold">v1.0.0</span>
+          </p>
         </div>
       </div>
     </div>
